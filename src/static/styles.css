@@ -1,0 +1,112 @@
+/* Default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body background and layout */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-image: url("../static/background.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Container for content */
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px 40px;
+  border-radius: 15px;
+  max-width: 700px;
+  width: 100%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+/* Header styling */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+/* Form styling */
+form {
+  margin-top: 20px;
+}
+
+label {
+  font-size: 1.1rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  resize: none;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #333;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px 25px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Prediction text */
+.predicted-text {
+  font-size: 1.4rem;
+  margin-bottom: 25px;
+}
+
+/* Chart container */
+.chart-wrapper {
+  position: relative;
+  height: 300px;
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 15px;
+  border-radius: 12px;
+}
+
+/* Chart canvas */
+canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Link back to home */
+.home-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #4dc3ff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.home-link:hover {
+  text-decoration: underline;
+}
